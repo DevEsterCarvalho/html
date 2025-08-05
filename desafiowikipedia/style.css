@@ -1,0 +1,107 @@
+body,
+html {
+	margin: 0;
+	padding: 0;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 15px;
+}
+ul {
+	list-style: none;
+	padding-left: 5px;
+}
+a {
+	color: blue;
+	text-decoration: none;
+	font-size: 0.95rem;
+}
+.bar {
+	background-color: #f9f9fb;
+	padding: 15px;
+	border-top: solid 1px #cdcdcd;
+	border-bottom: solid 1px #cdcdcd;
+}
+.content {
+	max-width: 1440px;
+	margin: auto;
+	grid-gap: 2rem;
+	display: grid;
+	gap: 2rem;
+	grid-template-areas: "sidebar main anchors";
+	grid-template-columns: minmax(0, 8rem) minmax(0, 4fr) minmax(0, 8rem);
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+.footer {
+	min-height: 100px;
+	border-top: solid 1px #cdcdcd;
+	font-size: 0.9rem;
+}
+.anchors {
+	border-left: solid 1px #cdcdcd;
+	padding-left: 15px;
+}
+.sidebar {
+	border-right: solid 1px #cdcdcd;
+}
+figure {
+	text-align: center;
+	font-size: 0.9rem;
+}
+.logo {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
+.logo h1 {
+	font-size: 1.4rem;
+	margin: 0;
+}
+.navegacao-pricipal {
+	text-align: center;
+	margin-top: 0.2rem;
+}
+.navegacao-pricipal ul {
+	display: inline-flex;
+	gap: 1.2rem;
+	padding: 0;
+	margin: 0;
+	font-size: 0.95rem;
+}
+.main {
+	font-size: 0.95rem;
+}
+.main img {
+	margin-left: 0;
+}
+.atores {
+	text-align: left;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+	font-size: 0.95rem;
+}
+.atores ul {
+	padding-left: 0.5rem;
+	margin-bottom: 1rem;
+}
+.atores figure {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin: 0;
+}
+.atores img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin: 0;
+	border: 1px solid #ccc;
+}
+.atores figcaption {
+	font-size: 0.85rem;
+	color: #555;
+	margin-top: 0.25rem;
+}
+
+html {
+	scroll-behavior: smooth;
+}
